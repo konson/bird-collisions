@@ -11389,13 +11389,13 @@
     var marker, i;
 
     for (i = 0; i < locations.length; i++) {  
-     var content = 	'<p><strong>Species: </strong>'+ locations[i]["species"] + '</p>' +
+     var content = 	'<div style="width:250px;"<p><strong>Species: </strong>'+ locations[i]["species"] + '</p>' +
 			'<p><strong>Date found: </strong>' + locations[i]["datestring"] + '</p>' +
 			'<p><strong>Status:  </strong>' + + locations[i]["status"]  + '</p>' +
 			'<p><strong>Sex:  </strong>' + locations[i]["sex"] + '</p>' +
 			'<p><strong>Age:  </strong>' + locations[i]["age"] + '</p>' +
 			'<p><strong>Notes:  </strong>' + locations[i]["notes"] +
-			'<p><img src='+ locations[i]["imageURL"] + 'alt="" width="200" height="200" /></p>';
+			'<p><img src="' + locations[i]["imageURL"] + '" alt="" width="200" height="200" /></p></div>';
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i]["latitude"], locations[i]["longitude"]),
         map: map,
