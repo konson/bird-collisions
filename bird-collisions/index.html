@@ -10,48 +10,81 @@
   </head>
   <body>
   	<div class="container-fluid">
-      <div class="bird-navbar row">
-        <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand" href="#">
-            <!-- <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
-            Atlanta Audubon Society
+      <div class="section bird-navbar row">
+        <nav class="navbar navbar-light bg-light col">
+          <a class="navbar-brand mr-auto col-auto" href="#">
+            <object type="image/svg+xml" class="img-responsive col" data="assets/img/title.svg">
+            </object>
           </a>
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav col-auto">
             <li class="nav-item">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Report</button>
+              <button class="btn btn-outline-success" type="submit">Report</button>
             </li>
           </ul>
         </nav>
       </div>
-	  	<div class="bird-hero row hero-image">
-        <object type="image/svg+xml" class="hero-image col" data="assets/img/hero-image.svg">
+	  	<div class="section bird-hero row hero-image">
+        <object type="image/svg+xml" class="hero-image img-responsive col" data="assets/img/hero-image.svg">
         Your browser does not support SVG
         </object>
 	  	</div>
-    </div>
-  	<div class="section get-started row">
-  	get started
-  	</div>
-  	<div class="section report row">
-  	report
-  	</div>
-  	<div class="section map row">
-<!-- 		  	<div id="floating-panel">
-			  <button onclick="toggleHeatmap()">Toggle Heatmap</button>
-			  <button onclick="changeGradient()">Change gradient</button>
-			  <button onclick="changeRadius()">Change radius</button>
-			  <button onclick="changeOpacity()">Change opacity</button>
-      </div> -->
-		</div>
-		<div id="map"></div>
-		<!-- Replace the value of the key parameter with your own API key. -->
-  	</div>
-  	<div class="section stay-inspired row">
-  	stay inspired
-  	</div>
-  	<div class="section join-us row">
-  	join us
-  	</div>
+      <div class="section-heading row">
+        <h2>get started</h2>
+        <p>You can help the Atlanta Audubon Society make a critical difference for our city’s native and migratory birds.</p>
+      </div>
+    	<div class="section get-started row">
+        <div class="card" style="width: 18rem;">
+          <object type="image/svg+xml" class="card-img-top center" data="assets/img/report.svg">
+          Your browser does not support SVG
+          </object>
+          <div class="card-body">
+            <h3 class="card-title">Card title</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#">
+              <h2 class="btn btn-report mx-auto">Report</h2>
+            </a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <object type="image/svg+xml" class="card-img-top center" data="assets/img/building.svg">
+          Your browser does not support SVG
+          </object>
+          <div class="card-body">
+            <h3 class="card-title">Card title</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#">
+              <h2 class="btn btn-involved">Get involved</h2>
+            </a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <object type="image/svg+xml" class="card-img-top center" data="assets/img/join.svg">
+          Your browser does not support SVG
+          </object>
+          <div class="card-body">
+            <h3 class="card-title">Card title</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#">
+              <h2 class="btn btn-join">Join Us</h2>
+            </a>
+          </div>
+        </div>
+    	</div>
+    	<div class="section report row">
+    	report
+    	</div>
+    	<div class="section map row">
+    		<div id="map">   
+        </div>
+      </div>
+  		<!-- Replace the value of the key parameter with your own API key. -->
+    	<div class="section stay-inspired row">
+    	stay inspired
+    	</div>
+    	<div class="section join-us row">
+    	join us
+    	</div>
+  </div>
 
 
 

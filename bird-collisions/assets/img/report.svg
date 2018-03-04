@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="259px" height="259px" viewBox="0 0 259 259" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>report</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="report" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/photo" transform="translate(57.000000, 96.000000)">
+            <polygon id="Fill-144" fill="#FFFFFF" points="139.6875 67 45 67 51.3125 0 146 0"></polygon>
+            <polygon id="Fill-310" fill="#CCE7FF" points="50.0632911 26 45 68 139.936709 68 145 26"></polygon>
+            <path d="M0,54 L32,54 L0,54 Z" id="Stroke-792" stroke="#253494" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M13,34 L35,34 L13,34 Z" id="Stroke-793" stroke="#253494" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M25,14 L37,14 L25,14 Z" id="Stroke-794" stroke="#253494" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Stroke-795" stroke="#253494" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="139.6875 67 45 67 51.3125 0 146 0"></polygon>
+            <polygon id="Path-2" fill="#253494" fill-rule="nonzero" points="47.6861205 46.7634746 46 44.4884893 72.7420686 22 95.9900639 43.8502028 113.772362 32.9223859 139 62.0340029 137.000519 64 113.24817 36.5908037 95.6560317 47.4017611 72.6451499 25.7744152"></polygon>
+            <path d="M129,31 C123.477153,31 119,26.2989899 119,20.5 C119,14.7010101 123.477153,10 129,10 C134.522847,10 139,14.7010101 139,20.5 C139,26.2989899 134.522847,31 129,31 Z M129,28 C132.944891,28 136.142857,24.6421356 136.142857,20.5 C136.142857,16.3578644 132.944891,13 129,13 C125.055109,13 121.857143,16.3578644 121.857143,20.5 C121.857143,24.6421356 125.055109,28 129,28 Z" id="Oval" fill="#253494" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
