@@ -20,6 +20,16 @@ body {
 	padding: 0px;
 }
 
+.title {
+	padding: 100px;
+	text-align: center;
+	position: absolute;
+	color: #F0F3F5;
+	left: 474px;
+	top: 242px;
+	/*padding: 50px;*/
+}
+
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
@@ -47,6 +57,10 @@ p {
 .section-heading {
 	text-align: center;
 	padding: 70px;
+}
+.section-heading-wrapper {
+	width: 30%;
+	text-align: center;
 }
 
 .hero-image {
@@ -96,6 +110,12 @@ p {
 	background: #56CEE2;
 	color: #F0F3F5;
 	width: 100%;
+}
+
+.btn-join-us{
+	background: #253494;
+	color: #F0F3F5;
+	width: 20%;
 }
 
 /*.btn-report:hover {
