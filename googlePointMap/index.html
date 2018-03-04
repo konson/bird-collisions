@@ -972,6 +972,13 @@
     var marker, i;
 
     for (i = 0; i < locations.length; i++) {  
+     var content = 	'<p><strong>Species: </strong>'+ 'Warbler' + '</p>' +
+			'<p><strong>Date found: </strong>' + 'June 21, 2017' + '</p>' +
+			'<p><strong>Status:  </strong>' + + locations[i][0]  + '</p>' +
+			'<p><strong>Sex:  </strong>' + 'Female' + '</p>' +
+			'<p><strong>Age:  </strong>' + 'Juvenile' + '</p>' +
+			'<p><strong>Notes:  </strong>' + 'Appears to have a broken neck.' +
+			'<p><img src="http://www.d-bird.org/atl/uploads/7701436pinewarbler_2.jpg" alt="" width="200" height="200" /></p>';
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
         map: map,
@@ -980,7 +987,7 @@
 
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-          infowindow.setContent(locations[i][0]);
+          infowindow.setContent(content);
           infowindow.open(map, marker);
         }
       })(marker, i));
