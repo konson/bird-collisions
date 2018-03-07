@@ -10,50 +10,124 @@
   </head>
   <body>
   	<div class="container-fluid">
-      <div class="hero-image">
-        <!-- <div class="bird-navbar row"> -->
-          <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-              <!-- <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
-              Atlanta Audubon Society
-            </a>
-
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Report</button>
-              </li>
-            </ul>
-          </nav>
-        <!-- </div> -->
-  	  	<div class="bird-hero row col">
-          <object type="image/svg+xml" class="hero-image" data="assets/img/hero_image.svg">
+      <div class="section bird-navbar row">
+        <nav class="navbar navbar-light bg-light col">
+          <a class="navbar-brand mr-auto col-auto" href="#">
+            <object type="image/svg+xml" class="img-responsive col" data="assets/img/title.svg">
+            </object>
+          </a>
+          <ul class="navbar-nav col-auto">
+            <li class="nav-item">
+              <button class="btn btn-outline-success" type="submit">Report</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+	  	<div class="section bird-hero row hero-image">
+        <object type="image/svg+xml" class="hero-image img-responsive col" data="assets/img/hero-image.svg">
+        Your browser does not support SVG
+        </object>
+        <!-- <h1 class="title">#ATLSavesBirds</h1> -->
+	  	</div>
+      <div class="section-heading">
+        <h2>get started</h2>
+        <p>You can help the Atlanta Audubon Society make a critical difference for our city’s native and migratory birds.</p>
+      </div>
+    	<div class="section get-started row justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <object type="image/svg+xml" class="card-img-top center" data="assets/img/camera.svg">
           Your browser does not support SVG
           </object>
-  	  	</div>
+          <div class="card-body">
+            <h3 class="card-title">Report</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#">
+              <h2 class="btn btn-report mx-auto">Learn How</h2>
+            </a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <object type="image/svg+xml" class="card-img-top center" data="assets/img/building.svg">
+          Your browser does not support SVG
+          </object>
+          <div class="card-body">
+            <h3 class="card-title">Join Lights Out</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#">
+              <h2 class="btn btn-involved">Get involved</h2>
+            </a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <object type="image/svg+xml" class="card-img-top center" data="assets/img/join.svg">
+          Your browser does not support SVG
+          </object>
+          <div class="card-body">
+            <h3 class="card-title">Become A Volunteer</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#">
+              <h2 class="btn btn-join">Join Us</h2>
+            </a>
+          </div>
+        </div>
+    	</div>
+      <div class="section-heading">
+        <h2>Report</h2>
+        <p>Reporting dead or injured birds only takes a few minutes.</p>
       </div>
-	  	<div class="section get-started row">
-	  	get started
-	  	</div>
-	  	<div class="section report row">
-	  	report
-	  	</div>
-	  	<div class="section map row">
-<!-- 		  	<div id="floating-panel">
-  			  <button onclick="toggleHeatmap()">Toggle Heatmap</button>
-  			  <button onclick="changeGradient()">Change gradient</button>
-  			  <button onclick="changeRadius()">Change radius</button>
-  			  <button onclick="changeOpacity()">Change opacity</button>
-        </div> -->
-			</div>
-			<div id="map"></div>
-			<!-- Replace the value of the key parameter with your own API key. -->
-	  	</div>
-	  	<div class="section stay-inspired row">
-	  	stay inspired
-	  	</div>
-	  	<div class="section join-us row">
-	  	join us
-	  	</div>
+    	<div class="section report row justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <object type="image/svg+xml" class="card-img-top center" data="assets/img/report.svg">
+          Your browser does not support SVG
+          </object>
+          <div class="card-body">
+            <h3 class="card-title">Send Us A Report</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#">
+              <h2 class="btn btn-report mx-auto">Report</h2>
+            </a>
+          </div>
+        </div>
+        <!-- <h2>OR</h2> -->
+        <div class="card" style="width: 18rem;">
+          <object type="image/svg+xml" class="card-img-top center" data="assets/img/rescue.svg">
+          Your browser does not support SVG
+          </object>
+          <div class="card-body">
+            <h3 class="card-title">Call For Rescue</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#">
+              <h2 class="btn btn-join">Rescue</h2>
+            </a>
+          </div>
+        </div>
+    	</div>
+    	<div class="section map row">
+    		<div id="map">   
+        </div>
+      </div>
+  		<!-- Replace the value of the key parameter with your own API key. -->
+      <div class="section-heading">
+        <h2>Stay Inspired</h2>
+        <p>Atlantans have helped rescue hundreds of birds.</p>
+      </div>
+    	<div class="section stay-inspired row justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img class="img-fluid" src="assets/img/bird-1.jpg">
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="img-fluid" src="assets/img/bird-2.jpg">
+          <!-- <img class="img-fluid" src="img/nina_karma.svg" alt="nina_karma"> -->
+        </div>
+    	</div>
+      <div class="section-heading">
+        <h2>Join Us</h2>
+        <p>Atlanta Audubon Society is a thriving, non-profit organization dedicated to protecting Georgia’s birds and their habitats. Aside from serious conservation initiatives, we host fun activities that build community and foster the joy of birding.   </p>
+      </div>
+    	<div class="section join-us row justify-content-center">
+        <h2 class="btn btn-join-us">Join Us</h2>
+    	</div>
+  </div>
 
 
 
