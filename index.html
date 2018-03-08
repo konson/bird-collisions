@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlanta Saves Birds</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/googleHeatMap.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+  </head>
+  <body>
+    <header class="main-header flex-container">
+      <nav class="nav">
+        <img class="site-name" src="img/title.svg" alt="Atlanta Audubon Society">
+        <button class="menu-btn">&#9776;</button>
+        <button class="exit-btn">&#735;</button>
+        <ul class="main-nav">
+          <li class="nav-item"><a href="#" target="_blank">Tweet us</a></li>
+          <li class="nav-item"><a class="btn report-btn" href="#" target="_blank">Report</a></li>
+        </ul>
+      </nav>
+      <div class="intro">
+        <h1 class="headline title">#ATLSavesBirds</h1>
+        <p>Each year, up to a billion birds perish from colliding with buildings in the United States. During the day, migrating species struggle with reflective surfaces. At night, they’re disoriented by brights lights. You can help reduce the number of deaths by reporting collision victims or volunteering with our organization.  Atlanta saves birds - and you can be part of the effort.</p>
+        <a href="#start" class="btn cta-btn">start saving birds</a>
+      </div>
+    </header>
+    <div id="start" class="content flex-container">
+      <h2 class="headline section-title">get started</h2>
+      <p>You can help the Atlanta Audubon Society make a critical difference for our city’s native and migratory birds.</p>
+      <div class="cards">
+        <div class="card flex-container">
+          <img src="img/camera.svg" alt="An illustrated camera">
+          <div class="description">
+            <h3 class="headline card-title">report</h3>
+            <p>Found a grounded bird? Your report leads to a greater understanding of how buildings affect resident and migrating birds and what can be done to make Atlanta a more bird safe city.</p>
+            <a class="btn card-btn one" href="#report" target="_blank">learn how</a>
+          </div>
+        </div>
+        <div class="card flex-container">
+          <img src="img/building.svg" alt="An illustration of a high-rise building">
+          <div class="description">
+            <h3 class="headline card-title">join lights out</h3>
+            <p>Join other commercial and residential homeowners in Atlanta pledging to reduce outdoor lighting and protect birds during their peak migration period.</p>
+            <a class="btn card-btn two" href="https://www.atlantaaudubon.org/lights-out-atlanta.html" target="_blank">get involved</a>
+          </div>
+        </div>
+        <div class="card flex-container">
+          <img src="img/join.svg" alt="An illustration of happy faces surrounded by birds">
+          <div class="description">
+            <h3 class="headline card-title">become a volunteer</h3>
+            <p>Help us monitor for window collisions in the early mornings during peak migration periods by walking routes in the city and reporting what you find.</p>
+            <a class="btn card-btn three" href="https://www.atlantaaudubon.org/joinrenew.html" target="_blank">join us</a>
+          </div>
+        </div> <!--end of .card-->
+      </div> <!--end of .cards -->
+    </div>
+    <div id="report" class="content flex-container">
+      <h2 class="headline section-title">report</h2>
+      <p>Reporting dead or injured birds only takes a few minutes.</p>
+      <div class="cards">
+        <div class="card flex-container">
+          <img src="img/report.svg" alt="An illustrated envelope">
+          <h3 class="headline card-title">send us a report</h3>
+          <p>If the bird is dead, all you need to do is take a photo and submit a short form.</p>
+          <a class="btn card-btn one" href="#" target="_blank">report</a>
+        </div>
+        <div class="card flex-container">
+          <img src="img/rescue.svg" alt="An illustrated ambulance">
+          <h3 class="headline card-title">call for rescue</h3>
+          <p>If the bird is injured, contact AWARE Wildlife, so it can be rescued.</p>
+          <a class="btn card-btn two" href="#" target="_blank">rescue</a>
+        </div>
+      </div>
+    </div>
+    <div id="map" class="content flex-container">
+      <!--placeholder image of map-->
+      <img src="img/map-placeholder.png" alt="An interactive heatmap">
+    </div>
+    <div id="inspiration" class="content flex-container">
+      <h2 class="headline section-title">stay inspired</h2>
+      <p>Atlantans have helped rescue hundreds of birds.</p>
+      <div class="saved-birds">
+        <img src="img/bird-1.jpg" alt="A person holding an injured bird.">
+        <img src="img/bird-2.jpg" alt="A bird resting on a woman's hand.">
+      </div>
+    </div>
+    <div id="join" class="content flex-container">
+      <h2 class="headline section-title">join us</h2>
+      <p>Atlanta Audubon Society is a thriving, non-profit organization dedicated to protecting Georgia’s birds and their habitats. Aside from serious conservation initiatives, we host fun activities that build community and foster the joy of birding.</p>
+      <a class="btn join-btn" href="https://www.atlantaaudubon.org/joinrenew.html" target="_blank">join us</a>
+      <div class="social-links">
+        <a href="#" target="_blank"><img src="img/twitter.svg"></a>
+        <a href="#" target="_blank"><img src="img/facebook.svg"></a>
+        <a href="#" target="_blank"><img src="img/email.svg"></a>
+      </div>
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=&libraries=visualization&callback=initMap">
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>
