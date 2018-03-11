@@ -183,8 +183,8 @@ img {
 .report-btn {
   background: none;
   border: 2px solid #FEFEFE;
-  box-shadow: none;
   padding: .5em 2em;
+  box-shadow: none;
 }
 
 .report-btn:hover {
@@ -281,7 +281,7 @@ img {
   }
 
   .title {
-  font-size: 3rem;
+    font-size: 3rem;
   }
 
   .section-title {
@@ -290,6 +290,38 @@ img {
 
   .card-title {
     font-size: 1.25rem;
+  }
+
+  .nav {
+    padding: 0;
+  }
+
+  .site-name {
+    width: 20em;
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+    padding: 0;
+    background: none;
+  }
+
+  .main-nav li {
+    font-size: 1em;
+    padding: 1em 1em 0;
+  }
+
+  .saved-birds img {
+    width: 45%;
+    max-width: 600px;
+  }
+
+  #report .cards {
+    display: flex;
+    flex-direction: row;
   }
 }
 
