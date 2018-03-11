@@ -18,8 +18,8 @@ body {
 }
 
 .headline {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 p {
@@ -64,15 +64,18 @@ img {
 }
 
 .title {
+  font-size: 2.25rem;
   font-weight: 600;
   text-transform: none;
 }
 
 .section-title {
+  font-size: 1.5rem;
   padding: 1.875em 0 0;
 }
 
 .card-title {
+  font-size: 1rem;
   padding: 1em 0;
 }
 
@@ -174,11 +177,13 @@ img {
 .btn {
   display: inline-block;
   border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .15);
 }
 
 .report-btn {
   background: none;
   border: 2px solid #FEFEFE;
+  box-shadow: none;
   padding: .5em 2em;
 }
 
@@ -275,36 +280,16 @@ img {
     display: none; /* Remove hamburger menu */
   }
 
-  .nav {
-    padding: 0;
+  .title {
+  font-size: 3rem;
   }
 
-  .site-name {
-    width: 20em;
+  .section-title {
+    font-size: 2.25rem;
   }
 
-  .main-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: inherit;
-    padding: 0;
-    background: none;
-  }
-
-  .main-nav li {
-    font-size: 1em;
-    padding: 1em 1em 0;
-  }
-
-  .saved-birds img {
-    width: 45%;
-    max-width: 600px;
-  }
-
-  #report .cards {
-    display: flex;
-    flex-direction: row;
+  .card-title {
+    font-size: 1.25rem;
   }
 }
 
